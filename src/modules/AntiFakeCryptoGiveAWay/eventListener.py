@@ -14,7 +14,6 @@ class AntiFakeCryptoGiveAWay(commands.Cog):
         self.cache = set()
     @commands.Cog.listener()
     async def on_message(self, message: discord.Message) -> None:
-        start = time.time()
         image_urls = []
 
         for attachment in message.attachments:
@@ -46,11 +45,9 @@ class AntiFakeCryptoGiveAWay(commands.Cog):
 
                 if upload_image_hash in self.HashList:
                     await message.delete()
-                    print(f"done after: {round(time.time() - start, 4)} s")
                     return
                 for h in self.HashList:
                     if abs(h - upload_image_hash) <= 5:
                         self.cache.add(upload_image_hash)
                         await message.delete()
-                    print(f"done after: {round(time.time() - start,4)} s")
                     return
