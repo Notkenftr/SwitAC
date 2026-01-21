@@ -1,2 +1,6 @@
 Discord:
   bot-token: ""
+
+Logging:
+  enable: false
+  channel_id: 0000000

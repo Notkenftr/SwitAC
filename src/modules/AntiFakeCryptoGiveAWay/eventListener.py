@@ -16,6 +16,14 @@ class AntiFakeCryptoGiveAWay(commands.Cog):
     async def on_message(self, message: discord.Message) -> None:
         image_urls = []
 
+        message_content = (
+            message.content.lower().strip()
+            .replace("|", "")
+            .replace("__","")
+            .replace("~~","")
+            .replace("`","")
+        )
+
         for attachment in message.attachments:
             image_urls.append(attachment.url)
 
@@ -29,7 +37,7 @@ class AntiFakeCryptoGiveAWay(commands.Cog):
             r'https?://[^\s<>()"]+(?:\.(?:png|jpe?g|webp|gif))(?:\?[^\s<>()"]*)?',
             re.IGNORECASE
         )
-        image_urls.extend(pattern.findall(message.content.lower().strip()))
+        image_urls.extend(pattern.findall(message_content))
 
         if not image_urls:
             return
