@@ -12,7 +12,6 @@
 SwitAC is designed to block crypto scam messages and other malicious content.
 In the future, we plan to expand it with advanced features such as anti-raid, anti-selfbot, and many other security mechanisms to help protect Discord communities more effectively.
 
-![Demo](https://media.discordapp.net/attachments/1430172888413114478/1463492491100815495/output.gif?ex=69720718&is=6970b598&hm=93f4af25255ce7dfd399f322bbf71178f714aaebf556709aa0c5300dc0905623&=&format=webp&width=1152&height=648)
 
 # 🗒️ Requirements<br>
 **Python**: 3.8+ <br>
