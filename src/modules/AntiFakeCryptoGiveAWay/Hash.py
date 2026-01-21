@@ -1,8 +1,8 @@
 async def Hash() -> list:
-    import os.path
+    import os
     import imagehash
     from PIL import Image
-    from src.utils import PathManager
+    from ...utils import PathManager
 
 
     HashResult = []

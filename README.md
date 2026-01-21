@@ -20,13 +20,17 @@ In the future, we plan to expand it with advanced features such as anti-raid, an
 **Operating System**: Windows, macOS, or Linux<br>
 **You don't need to download the library; it's already embedded in `./src/vendor/`.**
 
-# 📦 Installation
+# 📦 Manual Installation
 
 1. Configure your bot token in `config.yml`
 2. Open a terminal
 3. Run:
    - **Windows:** `py main.py` or `python main.py`
    - **Linux:** `python3 ./main.py`
+
+# 🔌 Integrate the Module into Your Bot
+
+### Read more: https://github.com/Notkenftr/Swit/docs/To_integrate_this_feature_into_your_bot.md
 
 # 📍 LICENSE
 

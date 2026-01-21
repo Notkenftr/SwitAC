@@ -1,7 +1,7 @@
 import os.path
 
 import yaml
-from src.utils import PathManager
+from ..utils import PathManager
 
 class Config:
     def __init__(self):
