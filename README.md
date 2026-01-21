@@ -1,3 +1,32 @@
+```aiignore
+      /$$$$$$                /$$   /$$
+     /$$__  $$              |__/  | $$
+    | $$  \__/ /$$  /$$  /$$ /$$ /$$$$$$
+    |  $$$$$$ | $$ | $$ | $$| $$|_  $$_/
+     \____  $$| $$ | $$ | $$| $$  | $$
+     /$$  \ $$| $$ | $$ | $$| $$  | $$ /$$
+    |  $$$$$$/|  $$$$$/$$$$/| $$  |  $$$$/
+     \______/  \_____/\___/ |__/   \___/
+```
+
+SwitAC is designed to block crypto scam messages and other malicious content.
+In the future, we plan to expand it with advanced features such as anti-raid, anti-selfbot, and many other security mechanisms to help protect Discord communities more effectively.
+
+# 🗒️ Requirements<br>
+**Python**: 3.8+ <br>
+**Operating System**: Windows, macOS, or Linux<br>
+**You don't need to download the library; it's already embedded in `./src/vendor/`.**
+
+# 📦 Installation
+
+1. Configure your bot token in `config.yml`
+2. Open a terminal
+3. Run:
+   - **Windows:** `py main.py` or `python main.py`
+   - **Linux:** `python3 ./main.py`
+
+# 📍 LICENSE
+
 MIT License
 
 Copyright (c) 2025 kenftr
